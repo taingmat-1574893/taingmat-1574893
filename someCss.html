@@ -1,28 +1,37 @@
 <!DOCTYPE html> 
 <html>
 	<head>
-		<title>Matthew's Awesome Website</title>
+		<title>someCss</title>
+		<link href="anExternal.css" type="text/css" rel="stylesheet" />
 	</head>
-	<body>
+	<body style="background-color: lightblue;">
 		<h1>NEWBIE</h1>
-		<p>Two paragraphs different fonts</p>
-		<p>I think pangolins and kabuto beetles are cool</p>
-		<p>I'm also an undergraduate at the University of Washington</p>
-		<p>Two pictures resized to 50px by 50px </p>
-			<a href="http://www.telegraph.co.uk/science/2016/03/15/pangolins-13-facts-about-the-worlds-most-hunted-animal/">
+		<p> Two paragraphs different fonts:</p>
+		<p style="font-family: fantasy;">	My favorite animal is a Pangolin, and my favorite bug is a kabuto beetle. I know very little about either but I'm assuming that pangolins are a type of mammal. Honestly I'm just trying to get this chunk of text to look more like a paragraph, then a sentence or two. Seems to be working so far. At least this is better than a random assortment of undescriptive characters.</p>
+		<p style="font-family: cursive;"> My name is Matthew Taing and I'm an undergraduate at the University of Washington. My intended major is Informatics. Filler text is filler text, there's no reason to really put much more here than a random assortment of words that look like they are supposed to mean somehting. A little bit longer and this begins to look more and more like a paragraph and less like an assortment of words.</p>
+		<p>Two pictures resized to 50px by 50px:</p>
 			<img src="http://www.telegraph.co.uk/content/dam/science/2016/03/15/pangolin_3180820b-large_trans_NvBQzQNjv4BqpJliwavx4coWFCaEkEsb3kvxIt-lGGWCWqwLa_RXJU8.jpg" title="Pangolin" style="width:50px;height:50px;margin:5px"> 
-			</a>
-			<a href="http://wandertokyo.com/rhinoceros-beetle-care/">
 			 <img src="http://farm3.staticflickr.com/2067/2327286754_978dc4e542.jpg" title="Kabuto" style="width:50px;height:50px;margin:5px"">
-			 </a>	
-		<p> Unique CSS </p>
+		<p>Unique CSS: I made the background light blue</p>
+
 		<h1>APPRENTICE</h1>
-		<p> Text that is centered in a photo</p>
-		<p> A photo with 20px margins </p>
-		<p> Text with a border that uses dotted lines </p>
+		<p>Text that is centered in a photo:</p>
+		<div class = "image">
+			<img src="http://www.telegraph.co.uk/content/dam/science/2016/03/15/pangolin_3180820b-large_trans_NvBQzQNjv4BqpJliwavx4coWFCaEkEsb3kvxIt-lGGWCWqwLa_RXJU8.jpg" title="Pangolin" style="width:200px;height:200px;margin:5px"> 		
+			<div class = "text">
+			<h2> I'm Centered I swear </h2>
+			</div>
+			</div>
+		<p>A photo with 20px margins:</p>
+			<img src="http://www.telegraph.co.uk/content/dam/science/2016/03/15/pangolin_3180820b-large_trans_NvBQzQNjv4BqpJliwavx4coWFCaEkEsb3kvxIt-lGGWCWqwLa_RXJU8.jpg" title="Pangolin" style="width:50px;height:50px;margin:20px"> 		
+		<p> Text with a border that uses dotted lines:</p>
+		<p style="border-style: dotted";> Spaghetti </p>
+
 		<h1>MASTER</h1>			
-		<p> an external CSS sheet </p>
-		<p> a floated element </p>
-		<p> an element with rounded border corners </p>		 		
+		<p>An external CSS sheet:</p>
+		<p>A floated element:</p>
+				<img style= "float: right" src="http://www.telegraph.co.uk/content/dam/science/2016/03/15/pangolin_3180820b-large_trans_NvBQzQNjv4BqpJliwavx4coWFCaEkEsb3kvxIt-lGGWCWqwLa_RXJU8.jpg" title="Pangolin" style="width:100px;height:100px;margin:5px"> 		
+		<p>An element with rounded border corners:</p>	
+		<p id = "rounded1"> I AM ROUNDED </p>	
 	</body>
 </html>
